@@ -14505,7 +14505,7 @@ class CustomSocket {
   }
 }
 
-const remoteUrl = `ws://${window.location.hostname}:8081`;
+const remoteUrl = `wss://${window.location.hostname}:8081`;
 const socket = new CustomSocket(remoteUrl);
 
 /* harmony default export */ __webpack_exports__["a"] = (socket);
