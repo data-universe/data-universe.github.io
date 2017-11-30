@@ -14719,7 +14719,7 @@ class Game {
 const multiplier = 300;
 
 function loadBigData(callback) {
-  __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__loadJson__["a" /* default */])('assets/newBigData_v8.json', (error, data) => {
+  __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__loadJson__["a" /* default */])('https://data-universe.github.io/data/af-data.json', (error, data) => {
     if (!error) {
       const bigData = data.map(extract);
       callback(undefined, bigData);
