@@ -30037,8 +30037,8 @@ function createGeometries() {
 
 class PlanetBuffer {
   constructor(scene, camera) {
-    this.chunkSize = 20; // The size of one chunk
-    this.bufferSize = 1; // How many chunks in each direction should be loaded
+    this.chunkSize = 25; // The size of one chunk
+    this.bufferSize = 2; // How many chunks in each direction should be loaded
     this.bufferDistance = this.bufferSize * this.chunkSize;
     this.chunks = {};
     this.chunkIndex = { xi: NaN, yi: NaN, zi: NaN };
